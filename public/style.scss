@@ -1,0 +1,121 @@
+$headingColor:#995172c9;
+$lightColor:#b9847b;
+$fontFamily:'comic sans MS';
+
+@mixin button{
+    font-family: $fontFamily;
+    border-radius:20vw;
+    background-color:$lightColor; 
+    border: none;
+    height:3vw;
+    width:9vw;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.8vw;
+    cursor: pointer;
+    color:white;
+}
+
+@mixin table{
+    border-bottom:1px solid rgb(250, 237, 237);
+    border-collapse: collapse;
+    text-align:left;
+    padding:1vw;
+    color:$lightColor;
+    font-family: $fontFamily;
+}
+
+#header{
+    margin:3vw;
+    padding:2.5vw;
+    padding-top:0.5vw;
+    color:$headingColor;
+    font-family: $fontFamily;
+    a{
+        @include button;
+        padding:1vw;
+        float:right;
+        margin-left:1vw;
+    }
+}
+
+#body{
+    margin:2vw;
+    padding:1.5vw;
+    padding-top:0.5vw;
+    background-color: white;
+    #displayOptions{
+        margin-right:1vw;
+        margin-left:1vw;
+        margin-bottom: 2vw;
+        @include button;
+        font-size:1.5vw;
+        width:25vw;
+        height:3vw;
+      }
+      #searchBar{
+        margin-right:1vw;
+        margin-left:1vw;
+        margin-bottom: 2vw;
+        @include button;
+        width:30vw;
+        height:3vw;
+      }
+      #search{
+        margin-right:1vw;
+        margin-left:1vw;
+        margin-bottom: 2vw;
+        @include button;
+        font-size:1.5vw; 
+        height:3vw;
+        width:10vw;
+      }
+      #bookTable{
+        width:100%;
+        border:1px solid rgb(250, 237, 237);
+        border-collapse: collapse;
+    }
+    
+    .table_header{
+        @include table;
+    }
+    
+    .table_data{
+        @include table;
+    }
+
+    .button{
+        @include button;
+        padding:1vw;
+        height:3.5vw;
+    }
+    
+    .formElement{
+        margin-right:20vw;
+        margin-left:20vw;
+        margin-bottom:2vw;
+        font-size:1.5vw;
+    }
+    
+    .spanLabels{
+        margin-right:2vw;
+    }
+    input,textarea{
+        border:none;
+        border-bottom: 0.1vw solid rgb(250, 237, 237);
+        width:25vw;
+        height: 2.5vw;
+        font-size:1.5vw;
+    }
+    label{
+        font-family: $fontFamily;
+        color:$lightColor;
+    }
+    #submit{
+        @include button;
+        padding:0.5vw;
+        height:5vw;
+        width: 10vw;
+    }
+}
+
