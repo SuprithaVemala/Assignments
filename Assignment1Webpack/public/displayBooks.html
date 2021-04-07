@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="style.css"/> -->
+    <title>Display page</title>
+</head>
+<body style="background-color: rgb(250, 237, 237);">
+    <div id="header">
+        <h1 class="heading">BOOK MANAGEMENT SYSTEM</h1>
+        <a href="displayBooks.html">Book list</a>
+        <a href="addBooks.html">Add books</a>
+        <p style="height:1vw"></p>
+    </div>
+    <div id="body">
+       <div id="find">
+        <h2 class="heading" style="color:#b9847b;">Book List</h2> 
+            <form id="searchName" action="#">
+                <select id="displayOptions" class="sort">
+                <option value="" selected disabled >Select the type of search</option>
+                <option value="id">Select by ID</option>
+                <option value="title">Select by book title</option>
+                <option value="author">Select by Author name</option>
+                <option value="rating">Select by rating </option>
+                <option value="price">Select by price</option>
+                </select>
+                <input type="search" id="searchBar" placeholder="Enter the book name to search">
+                <input type="button" value="search" id="search">
+            </form>
+       </div>
+       <div id="bookList">
+           <table id="bookTable">
+            <tr id="headingRow">
+                <th class="table_header">Title</th>
+                <th class="table_header">Author</th>
+                <th class="table_header">Rating</th>
+                <th class="table_header">Actions</th>
+            </tr>
+           </table>
+       </div>
+    </div>
+    <script type="text/javascript" src="../dist/bundle.js"></script>
+</body>
+</html>
