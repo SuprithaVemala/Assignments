@@ -1,0 +1,127 @@
+$headingColor:#995172c9;
+$lightColor:#b9847b;
+$fontFamily:'comic sans MS';
+
+@mixin button{
+    font-family: $fontFamily;
+    border-radius:20vw;
+    background-color:$lightColor; 
+    border: none;
+    height:3vw;
+    width:20vw;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    color:white;
+}
+
+@mixin table{
+    border-bottom:1px solid rgb(250, 237, 237);
+    border-collapse: collapse;
+    text-align:left;
+    padding:1vw;
+    color:$lightColor;
+    font-family: $fontFamily;
+}
+
+#header{
+    margin:3vw;
+    padding:2.5vw;
+    padding-top:0.5vw;
+    color:$headingColor;
+    font-family: $fontFamily;
+    
+    .btn{
+        @include button;
+        padding:1vw;
+        padding:0.8vw;
+        float:right;
+        margin-left:1vw;
+        width:10vw;
+    }
+}
+
+#find{
+    margin:2vw;
+    padding:1.5vw;
+    padding-top:0.5vw;
+    background-color: #FFFAF0;
+    #displayOptions{
+        margin-right:1vw;
+        margin-left:1vw;
+        margin-bottom: 2vw;
+        @include button;
+        font-size:15px;
+        width:20vw;
+        height:3vw;
+      }
+      #searchBar{
+        margin-right:1vw;
+        margin-left:1vw;
+        margin-bottom: 2vw;
+        @include button;
+        width:30vw;
+        height:3vw;
+      }
+      #search{
+        margin-right:1vw;
+        margin-left:1vw;
+        margin-bottom: 2vw;
+        @include button;
+        font-size:15px; 
+        height:3vw;
+        width:10vw;
+      }
+      .table_header{
+        @include table;
+    }
+    
+    .table_data{
+        @include table;
+    }
+    
+    .button{
+        @include button;
+        padding:10px;
+        height:40px;
+        width:8vw;
+    }
+    #bookTable{
+        width:100%;
+        border:1px solid rgb(250, 237, 237);
+        border-collapse: collapse;
+    }
+}
+
+#newBooks{
+    input,textarea{
+        border:none;
+        border-bottom: 0.1vw solid rgb(250, 237, 237);
+        width:25vw;
+        height: 2.5vw;
+        font-size:1.5vw;
+    }
+    display:none;
+    #submit{
+        @include button;
+        padding:10px;
+        height:50px;
+    }
+    
+    label{
+        font-family: $fontFamily;
+        color:$lightColor;
+    }
+    .formElement{
+        margin-right:20vw;
+        margin-left:20vw;
+        margin-bottom:2vw;
+        font-size:1.5vw;
+    }
+    
+    .spanLabels{
+        margin-right:2vw;
+    }
+  
+}

@@ -1,0 +1,178 @@
+#header {
+  margin: 3vw;
+  padding: 2.5vw;
+  padding-top: 0.5vw;
+  color: #995172c9;
+  font-family: "comic sans MS";
+}
+
+#header .btn {
+  font-family: "comic sans MS";
+  border-radius: 20vw;
+  background-color: #b9847b;
+  border: none;
+  height: 3vw;
+  width: 20vw;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  padding: 1vw;
+  padding: 0.8vw;
+  float: right;
+  margin-left: 1vw;
+  width: 10vw;
+}
+
+#find {
+  margin: 2vw;
+  padding: 1.5vw;
+  padding-top: 0.5vw;
+  background-color: #FFFAF0;
+}
+
+#find #displayOptions {
+  margin-right: 1vw;
+  margin-left: 1vw;
+  margin-bottom: 2vw;
+  font-family: "comic sans MS";
+  border-radius: 20vw;
+  background-color: #b9847b;
+  border: none;
+  height: 3vw;
+  width: 20vw;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  font-size: 15px;
+  width: 20vw;
+  height: 3vw;
+}
+
+#find #searchBar {
+  margin-right: 1vw;
+  margin-left: 1vw;
+  margin-bottom: 2vw;
+  font-family: "comic sans MS";
+  border-radius: 20vw;
+  background-color: #b9847b;
+  border: none;
+  height: 3vw;
+  width: 20vw;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  width: 30vw;
+  height: 3vw;
+}
+
+#find #search {
+  margin-right: 1vw;
+  margin-left: 1vw;
+  margin-bottom: 2vw;
+  font-family: "comic sans MS";
+  border-radius: 20vw;
+  background-color: #b9847b;
+  border: none;
+  height: 3vw;
+  width: 20vw;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  font-size: 15px;
+  height: 3vw;
+  width: 10vw;
+}
+
+#find .table_header {
+  border-bottom: 1px solid #faeded;
+  border-collapse: collapse;
+  text-align: left;
+  padding: 1vw;
+  color: #b9847b;
+  font-family: "comic sans MS";
+}
+
+#find .table_data {
+  border-bottom: 1px solid #faeded;
+  border-collapse: collapse;
+  text-align: left;
+  padding: 1vw;
+  color: #b9847b;
+  font-family: "comic sans MS";
+}
+
+#find .button {
+  font-family: "comic sans MS";
+  border-radius: 20vw;
+  background-color: #b9847b;
+  border: none;
+  height: 3vw;
+  width: 20vw;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  padding: 10px;
+  height: 40px;
+  width: 8vw;
+}
+
+#find #bookTable {
+  width: 100%;
+  border: 1px solid #faeded;
+  border-collapse: collapse;
+}
+
+#newBooks {
+  display: none;
+}
+
+#newBooks input, #newBooks textarea {
+  border: none;
+  border-bottom: 0.1vw solid #faeded;
+  width: 25vw;
+  height: 2.5vw;
+  font-size: 1.5vw;
+}
+
+#newBooks #submit {
+  font-family: "comic sans MS";
+  border-radius: 20vw;
+  background-color: #b9847b;
+  border: none;
+  height: 3vw;
+  width: 20vw;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  padding: 10px;
+  height: 50px;
+}
+
+#newBooks label {
+  font-family: "comic sans MS";
+  color: #b9847b;
+}
+
+#newBooks .formElement {
+  margin-right: 20vw;
+  margin-left: 20vw;
+  margin-bottom: 2vw;
+  font-size: 1.5vw;
+}
+
+#newBooks .spanLabels {
+  margin-right: 2vw;
+}
+/*# sourceMappingURL=style.css.map */
