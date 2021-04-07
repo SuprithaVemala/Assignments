@@ -1,0 +1,27 @@
+<div id="bookList">
+  <h2 class="heading" style="color: #b9847b">Book List</h2>
+  <form id="searchName" action="#">
+    <select id="displayOptions" class="sort">
+      <option value="" selected disabled>Select the type of search</option>
+      <option value="id">Select by ID</option>
+      <option value="title">Select by book title</option>
+      <option value="author">Select by Author name</option>
+      <option value="rating">Select by rating</option>
+      <option value="price">Select by price</option>
+    </select>
+    <input
+      type="search"
+      id="searchBar"
+      placeholder="Enter the book name to search"
+    />
+    <input type="button" value="search" id="search" />
+  </form>
+  <table id="bookTable">
+    <tr id="headingRow">
+      <th class="table_header">Title</th>
+      <th class="table_header">Author</th>
+      <th class="table_header">Rating</th>
+      <th class="table_header">Actions</th>
+    </tr>
+  </table>
+</div>
