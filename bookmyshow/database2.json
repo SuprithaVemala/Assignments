@@ -1,0 +1,14 @@
+{
+    "movies": [
+      {
+        "id": 1,
+        "movie": "Chota bheem",
+        "timing":["2:00pm","5:00pm"]
+      },
+      {
+        "id": 2,
+        "movie": "Bal Veer",
+        "timing":["11:00am","2:00pm"]
+      }
+    ]
+}
