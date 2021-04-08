@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Form</title>
+    <style>
+      div {
+        text-align: left;
+        margin-right: 30px;
+        padding: 10px;
+      }
+
+      fieldset {
+        font-size: 20px;
+        margin-left: 25%;
+        background-color: white;
+        color: black;
+        border-color: #c28c46;
+      }
+
+      input {
+        height: 20px;
+      }
+    </style>
+  </head>
+
+  <body style="background-color: rgb(250, 250, 178)">
+    <h1 style="font-size: 40px; color: black; margin-left: 30%">
+      REGISTRATION FROM
+    </h1>
+    <form action="thankyou.html">
+      <fieldset style="width: 50%">
+        <legend style="font-size: 30px">Fill the details:</legend>
+        <div>
+          <label>Firstname: </label>
+          <input
+            type="text"
+            name="fname"
+            id="fname"
+            autofocus
+            required
+          /><br /><br />
+          <label>MiddleName: </label>
+          <input type="text" name="mname" id="mname" /><br /><br />
+          <label>Lastname: </label>
+          <input type="text" name="lname" id="lname" required /><br /><br />
+          <label>Course: </label>
+          <select style="height: 30px" id="sourse" name="course" required>
+            <option disabled selected>Select one</option>
+            <option value="BE">BE/BTech</option>
+            <option value="BCA">BCA</option>
+            <option value="BBA">BBA</option>
+            <option value="MTech">MTech</option>
+            <option value="MCA">MCA</option>
+            <option value="MBA">MBA</option></select
+          ><br /><br />
+          <label>Gender: </label>
+          <input type="radio" id="male" name="gender" value="male" />
+          <label>Male</label>
+          <input type="radio" id="female" name="gender" value="female" />
+          <label>Female</label>
+          <input type="radio" id="other" name="gender" value="other" />
+          <label>Other</label><br /><br />
+          <label>Phone: </label>
+          <input type="text" value="+91" name="code" id="code" size="1" />
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            pattern="[0-9]{10}"
+          /><br /><br />
+          <label>Address: </label>
+          <textarea name="address" rows="6" cols="50"></textarea><br /><br />
+          <label>Email: </label>
+          <input type="email" name="email" id="email" /><br /><br />
+          <label>Password: </label>
+          <input type="password" name="pword" id="pword" /><br /><br />
+          <label>Re-type Password: </label>
+          <input type="password" name="password" id="password" /><br /><br />
+          <input
+            style="
+              padding: 10px;
+              text-align: center;
+              margin-left: 40%;
+              font-size: 15px;
+              font-family: 'Times New Roman';
+              background-color: rgb(243, 243, 158);
+              color: #c28c46;
+              height: 40px;
+              border-color: #c28c46;
+            "
+            type="Submit"
+            value="SUBMIT"
+          />
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
