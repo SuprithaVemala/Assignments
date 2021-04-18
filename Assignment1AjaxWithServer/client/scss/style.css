@@ -1,0 +1,210 @@
+body {
+  background-color: #faeded;
+}
+
+#header {
+  margin: 3vw;
+  padding: 2.5vw;
+  padding-top: 0.5vw;
+  color: #b9847b;
+  font-family: "comic sans MS";
+}
+
+#header .btn {
+  font-family: "comic sans MS";
+  border-radius: 20vw;
+  background-color: #b9847b;
+  border: none;
+  height: 3vw;
+  width: 7vw;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1vw;
+  cursor: pointer;
+  color: white;
+  padding: 1vw;
+  float: right;
+  margin-left: 1vw;
+}
+
+#body {
+  margin: 2vw;
+  padding: 1.5vw;
+  padding-top: 0.5vw;
+  background-color: white;
+}
+
+#body #displayOptions {
+  margin-right: 1vw;
+  margin-left: 1vw;
+  margin-bottom: 2vw;
+  font-family: "comic sans MS";
+  border-radius: 20vw;
+  background-color: #b9847b;
+  border: none;
+  height: 3vw;
+  width: 7vw;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1vw;
+  cursor: pointer;
+  color: white;
+  font-size: 1.5vw;
+  width: 25vw;
+  height: 3vw;
+  padding-left: 2vw;
+}
+
+#body #searchBar {
+  margin-right: 1vw;
+  margin-left: 1vw;
+  margin-bottom: 2vw;
+  font-family: "comic sans MS";
+  border-radius: 20vw;
+  background-color: #b9847b;
+  border: none;
+  height: 3vw;
+  width: 7vw;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1vw;
+  cursor: pointer;
+  color: white;
+  width: 30vw;
+  height: 3vw;
+}
+
+
+
+#body #searchBar::placeholder {
+  color: white;
+  opacity: 80%;
+}
+
+#body #search {
+  margin-right: 1vw;
+  margin-left: 1vw;
+  margin-bottom: 2vw;
+  font-family: "comic sans MS";
+  border-radius: 20vw;
+  background-color: #b9847b;
+  border: none;
+  height: 3vw;
+  width: 7vw;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1vw;
+  cursor: pointer;
+  color: white;
+  font-size: 1.5vw;
+  height: 3vw;
+  width: 10vw;
+}
+
+#body .displayBook h1 {
+  font-family: "comic sans MS";
+  color: #b9847b;
+}
+
+#body .displayBook h3 {
+  font-family: "comic sans MS";
+  color: #b9847b;
+  font-style: italic;
+}
+
+#body .displayBook p {
+  font-family: "comic sans MS";
+  color: #b9847b;
+  font-size: 1.5vw;
+  padding: 1vw;
+}
+
+#body .displayBook span {
+  font-family: "comic sans MS";
+  color: #b9847b;
+  margin: 2vw;
+}
+
+#body #bookTable {
+  width: 100%;
+  border: 1px solid #faeded;
+  border-collapse: collapse;
+}
+
+#body .table_header {
+  border-bottom: 1px solid #faeded;
+  border-collapse: collapse;
+  text-align: left;
+  padding: 1vw;
+  color: #b9847b;
+  font-family: "comic sans MS";
+}
+
+#body .table_data {
+  border-bottom: 1px solid #faeded;
+  border-collapse: collapse;
+  text-align: left;
+  padding: 1vw;
+  color: #b9847b;
+  font-family: "comic sans MS";
+}
+
+#body .button {
+  font-family: "comic sans MS";
+  border-radius: 20vw;
+  background-color: #b9847b;
+  border: none;
+  height: 3vw;
+  width: 7vw;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1vw;
+  cursor: pointer;
+  color: white;
+  padding: 1vw;
+  height: 3.5vw;
+  margin: 1vw;
+}
+
+#body .formElement {
+  margin-right: 20vw;
+  margin-left: 20vw;
+  margin-bottom: 2vw;
+  font-size: 1.5vw;
+}
+
+#body .spanLabels {
+  margin-right: 2vw;
+}
+
+#body input,
+#body textarea {
+  border: none;
+  border-bottom: 0.1vw solid #faeded;
+  width: 25vw;
+  height: 2.5vw;
+  font-size: 1.5vw;
+}
+
+#body label {
+  font-family: "comic sans MS";
+  color: #b9847b;
+}
+
+#body #submit {
+  font-family: "comic sans MS";
+  border-radius: 20vw;
+  background-color: #b9847b;
+  border: none;
+  height: 3vw;
+  width: 7vw;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1vw;
+  cursor: pointer;
+  color: white;
+  padding: 0.5vw;
+  height: 5vw;
+  width: 10vw;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,50 @@
+<h2 class="heading" style="color: #b9847b">Add Book Details:</h2>
+<form method="GET" id="addBookForm">
+  <div class="formElement">
+    <span class="spanLabels">
+      <label>Title: </label>
+    </span>
+    <input type="text" id="title" required />
+  </div>
+  <div class="formElement">
+    <span class="spanLabels">
+      <label>Author: </label>
+    </span>
+    <input type="text" id="authorName" required />
+  </div>
+  <div class="formElement">
+    <span class="spanLabels">
+      <label>Price: </label>
+    </span>
+    <input type="number" id="price" min="0" required />
+  </div>
+  <div class="formElement">
+    <span class="spanLabels">
+      <label>Rating: </label>
+    </span>
+    <input
+      type="number"
+      id="rating"
+      name="rating"
+      min="0"
+      max="10"
+      step="0.1"
+      required
+    />
+  </div>
+  <div class="formElement">
+    <span class="spanLabels">
+      <label>Description: </label>
+    </span>
+    <textarea id="description" row="4" clm="80"></textarea>
+  </div>
+  <div class="formElement">
+    <span class="spanLabels">
+      <label>Image URL: </label>
+    </span>
+    <input type="text" id="coverPhotoURL" />
+  </div>
+  <div style="margin-left: 40%">
+    <input type="submit" value="Submit" id="submit" />
+  </div>
+</form>

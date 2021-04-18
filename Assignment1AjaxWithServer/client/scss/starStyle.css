@@ -1,0 +1,20 @@
+.inner {
+  position:absolute;
+  top:0;
+  left:0;
+  overflow: hidden;
+  width: 30px;
+}
+.inner::before {
+  content: "\f005 \f005 \f005 \f005 \f005";
+  color: #b9847b;
+}
+.outer {
+  display: inline-block;
+  position: relative;
+  font-family: FontAwesome;
+}
+.outer::before {
+  content: "\f006 \f006 \f006 \f006 \f006";
+  color:#b9847b;
+}
