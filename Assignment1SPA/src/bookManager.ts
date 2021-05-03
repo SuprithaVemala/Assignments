@@ -113,8 +113,14 @@ export class bookManager{
     searchByPrice(books:Book[], priceString:string){
         let priceSearchedBooks:Book[]=[]
         let ary=priceString.split(' ')
+        let res=books.filter((b)=>{
+            if(b.price>=Number(ary[0]) && b.price<=Number(ary[1]))
+            return true;
+        },ary)
+        return res
         for(let b of books)
         {
+
             if(b.price>=Number(ary[0]) && b.price<=Number(ary[1]))
                 priceSearchedBooks.push(b)
         }

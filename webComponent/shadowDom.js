@@ -15,7 +15,6 @@ class demo extends HTMLElement {
     let newVal=parseFloat(rating)*parseFloat(5)/parseFloat(limit)*15
     this.shadowRoot.querySelector("#starDiv").style.width=`${newVal}px`;
   }
-
 }
 
 window.customElements.define("star-rating", demo);
